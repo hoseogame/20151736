@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{af1fc316-96ec-4ce6-af98-a61501c9f4f7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c498b1f5-f393-40ed-a305-e71641aa6402}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1e0dabeb-e55e-4216-b70f-12d2f27740c5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{992ccfa2-0291-4311-a16b-3910bdd23dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GAME_SYSTEM">
+      <UniqueIdentifier>{58b10086-e22f-4e81-a69b-645acc50c69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAME_SYSTEM">
+      <UniqueIdentifier>{aa0e423d-c1ad-4a8b-a6c6-417679d65128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Header_Group">
+      <UniqueIdentifier>{680d7f69-4a39-4ea2-bb8e-7023a89ea846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Snake">
+      <UniqueIdentifier>{2f2a62ae-81a2-4390-9c94-130940ff9332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snake">
+      <UniqueIdentifier>{75adfa5c-f508-4cb4-8045-1c4e9dc96211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FootBall">
+      <UniqueIdentifier>{6e6c6d0e-1e74-44c4-93cf-fa92964ead93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FootBall">
+      <UniqueIdentifier>{e4971d30-3cbf-4dac-9285-172afefa26ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="snake.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CGAME_SYSTEM.cpp">
+      <Filter>Source Files\GAME_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="BODY_CLASS.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="FOOD_CLASS.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_CLASS.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SNAKE_DATA_CLASS.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SNAKE_GAME_CLASS.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="FootBall_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FOOTBALL_GAME_CLASS.cpp">
+      <Filter>Source Files\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE_CLASS.cpp">
+      <Filter>Source Files\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="FOOTBALL_SCREEN_CLASS.cpp">
+      <Filter>Source Files\FootBall</Filter>
+    </ClCompile>
+    <ClCompile Include="FOOTBALL_OBJECT.cpp">
+      <Filter>Source Files\FootBall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGAME_SYSTEM.h">
+      <Filter>Header Files\GAME_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="HEADER_GROUP.h">
+      <Filter>Header Files\Header_Group</Filter>
+    </ClInclude>
+    <ClInclude Include="BODY_CLASS.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="FOOD_CLASS.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Point_Class.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen_CLASS.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SNAKE_DATA_CLASS.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SNAKE_GAME_CLASS.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="FOOTBALL_GAME_CLASS.h">
+      <Filter>Header Files\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE_CLASS.h">
+      <Filter>Header Files\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="FOOTBALL_SCREEN_CLASS.h">
+      <Filter>Header Files\FootBall</Filter>
+    </ClInclude>
+    <ClInclude Include="FOOTBALL_OBJECT.h">
+      <Filter>Header Files\FootBall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
